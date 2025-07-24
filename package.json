@@ -9,9 +9,9 @@
   "author": "",
   "license": "Apache-2.0",
   "devDependencies": {
-    "jest": "^29.5.0"
+    "jest": "^30.0.0"
   },
   "jest": {
-    "reporters": [["github-actions", {"silent": false}]]
+    "reporters": [["github-actions", {"silent": false}], "summary"]
   }
 }
